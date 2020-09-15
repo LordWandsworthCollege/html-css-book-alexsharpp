@@ -1,18 +1,40 @@
 body {
-    width: 80%;
-    margin: auto;
-    border: blueviolet solid 2px;
-    padding: 5%;
+    border: blueviolet solid 3px;
+    padding: 2%;
 
     font: 1.6rem Arial;
     color: black;
-    width: 50%;
-    margin-top: 1cm;
+
+    margin-top: 2cm;
+    margin-bottom: 2cm;
+    margin-left: 4cm;
+    margin-right: 4cm;
+}
+
+#song {
+    color: darkblue;
+    font: 2.5rem Arial;
+    font-weight: 800;
+    padding-left: 3cm;
+    margin-bottom: 0cm;
+}
+
+#band {
+    color:darkblue;
+    font: 2rem Arial;
+    padding-left: 6cm;
+    margin-top: 0cm;
+}
+
+.verse {
+    font-family: Arial;
+    padding-left: 3cm;
 }
 
 .chorus {
-    font: 1.6rem Arial;
+    font-family: Times;
     font-weight: 600;
+    padding-left: 3cm;
 }
 
 
